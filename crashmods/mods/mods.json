@@ -1,0 +1,507 @@
+[
+  {
+    "slug": "appleskin",
+    "title": "AppleSkin – Hunger, Saturation and Food Value HUD",
+    "category": "minecraft-modok__food",
+    "category_name": "Food",
+    "side": "Client-side; also install on the server for exact saturation and exhaustion values",
+    "requires": {
+      "fabric": [
+        "Fabric API"
+      ],
+      "neoforge": []
+    },
+    "features": [
+      "Food tooltips show how much hunger and saturation each item restores",
+      "Saturation drawn as an overlay on the hunger bar",
+      "Exhaustion progress shown on the HUD",
+      "Preview of hunger and saturation you will regain while holding food",
+      "Preview of the health you will regain while holding food",
+      "Hunger, saturation and exhaustion values in the F3 debug screen",
+      "Changes no game mechanics, it only shows what vanilla hides",
+      "Fabric and NeoForge builds for Minecraft 26.3"
+    ],
+    "paragraphs": [
+      "Minecraft tracks more about hunger than the ten drumsticks on screen. Every food also restores hidden saturation, and every action builds up exhaustion that drains it. AppleSkin puts those numbers where you can see them, without changing how any of it works.",
+      "Hover over a food item and the tooltip shows exactly how much hunger and saturation it gives back. Hold food in your hand and the HUD previews the result: the part of the hunger bar it will refill, the saturation it adds and the health you can expect to regenerate. Saturation itself is drawn as an overlay on the hunger bar, so you can tell when it is time to eat before your health stops regenerating.",
+      "AppleSkin runs on the client, but it needs to be on the server as well to show exact saturation and exhaustion values in multiplayer. It is one of the most downloaded Minecraft mods and fits into almost any modpack."
+    ],
+    "credit": "Made by squeek502",
+    "license": {
+      "id": "Unlicense",
+      "copyright": "Public domain (Unlicense)",
+      "text_file": "crashmods/mods/licenses/appleskin.txt",
+      "source_license_url": "https://github.com/squeek502/AppleSkin/blob/HEAD/LICENSE"
+    },
+    "original_authors": [
+      "squeek502"
+    ],
+    "source": "https://github.com/squeek502/AppleSkin",
+    "modrinth": "https://modrinth.com/mod/appleskin",
+    "downloads_modrinth": 91800251,
+    "files": [
+      {
+        "loader": "fabric",
+        "minecraft": "26.3",
+        "version": "3.0.10+mc26.3",
+        "file": "appleskin-fabric-mc26.3-3.0.10.jar",
+        "size_kb": 176,
+        "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/PHjDtQay/appleskin-fabric-mc26.3-3.0.10.jar",
+        "sha256": "cb05087c39f0d860611aa1fae7cf63560214d1b71378a7c903c18dc370b5c3ce",
+        "license_in_jar": true
+      },
+      {
+        "loader": "neoforge",
+        "minecraft": "26.3",
+        "version": "3.0.10+mc26.3",
+        "file": "appleskin-neoforge-mc26.3-3.0.10.jar",
+        "size_kb": 79,
+        "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/6vok7cLb/appleskin-neoforge-mc26.3-3.0.10.jar",
+        "sha256": "1b12ae7b7f129821957c33c6efee0ff1da25af1c4ed8b1f1fa112f41244928e7",
+        "license_in_jar": false
+      }
+    ],
+    "checked": "2026-10-01"
+  },
+  {
+    "slug": "mouse-tweaks",
+    "title": "Mouse Tweaks – Faster Inventory Management with Mouse Drags and Scrolling",
+    "category": "minecraft-modok__utility",
+    "category_name": "Utility",
+    "side": "Client-side only",
+    "requires": {
+      "fabric": [],
+      "neoforge": []
+    },
+    "features": [
+      "Improved right-click dragging that can place an item into the same slot several times",
+      "Left-click drag with an item picks up every matching stack you pass over",
+      "Shift plus left-click drag shift-clicks every matching stack in one sweep",
+      "Shift plus left-click drag without an item moves stacks into the other inventory",
+      "Scroll wheel moves items between inventories",
+      "Every tweak can be turned on or off in the config file",
+      "Purely client-side, works on any server",
+      "Fabric and NeoForge builds for Minecraft 26.3"
+    ],
+    "paragraphs": [
+      "Sorting chests is the part of Minecraft nobody signed up for. Mouse Tweaks speeds it up by giving the mouse buttons and the scroll wheel more to do, while staying close enough to vanilla that it feels natural within minutes.",
+      "Hold left-click with an item and drag across the inventory to collect every matching stack. Add Shift to the same drag and all of those stacks are shift-clicked into the other container in one movement. Without an item on the cursor, a Shift drag moves every stack you pass over. Right-click dragging is improved too, so you can drop several items into the same crafting slot just by passing over it again, and the scroll wheel moves items between inventories.",
+      "Mouse Tweaks has no server-side part, so it works in single player and on any multiplayer server. Each tweak can be switched off in the config file if you prefer the vanilla behaviour for some of them."
+    ],
+    "credit": "Made by YaLTeR",
+    "license": {
+      "id": "BSD-3-Clause",
+      "copyright": "Copyright (c) 2023, Ivan Molodetskikh",
+      "text_file": "crashmods/mods/licenses/mouse-tweaks.txt",
+      "source_license_url": "https://github.com/YaLTeR/MouseTweaks/blob/HEAD/LICENSE"
+    },
+    "original_authors": [
+      "YaLTeR"
+    ],
+    "source": "https://github.com/YaLTeR/MouseTweaks",
+    "modrinth": "https://modrinth.com/mod/mouse-tweaks",
+    "downloads_modrinth": 59744702,
+    "files": [
+      {
+        "loader": "fabric",
+        "minecraft": "26.3",
+        "version": "26.3-2.31-fabric",
+        "file": "MouseTweaks-fabric-mc26.3-2.31.jar",
+        "size_kb": 73,
+        "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/LeMuMhLv/MouseTweaks-fabric-mc26.3-2.31.jar",
+        "sha256": "7fa35df568c870c45fd144dc9a54139459ded823615dda32bc09d9025831e655",
+        "license_in_jar": false
+      },
+      {
+        "loader": "neoforge",
+        "minecraft": "26.3",
+        "version": "26.3-2.31-neoforge",
+        "file": "MouseTweaks-neoforge-mc26.3-2.31.jar",
+        "size_kb": 72,
+        "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/f4tPRGDq/MouseTweaks-neoforge-mc26.3-2.31.jar",
+        "sha256": "e9ec08badec2e36f875a6b001b456284a40e337f6f224e85c7373770bce8103f",
+        "license_in_jar": false
+      }
+    ],
+    "checked": "2026-10-01"
+  },
+  {
+    "slug": "dynamic-fps",
+    "title": "Dynamic FPS – Lower FPS and Volume When Minecraft Is in the Background",
+    "category": "minecraft-modok__optimization",
+    "category_name": "Optimization",
+    "side": "Client-side only",
+    "requires": {
+      "fabric": [
+        "Fabric API"
+      ],
+      "neoforge": []
+    },
+    "optional": [
+      "Mod Menu and Cloth Config for the in-game settings screen"
+    ],
+    "features": [
+      "Detects whether the game window is active, hovered, unfocused or hidden",
+      "Separate frame rate limit for each window state",
+      "Separate volume for each state, including muting the game in the background",
+      "Toast notifications can be paused while you are away",
+      "Idle mode with a custom timeout",
+      "Battery mode for laptops and handhelds, with an optional battery indicator on the HUD",
+      "Fixes a vanilla bug that wastes CPU in the background",
+      "Stops rendering the world behind the resource loading screen",
+      "Fabric and NeoForge builds for Minecraft 26.3"
+    ],
+    "paragraphs": [
+      "Minecraft keeps rendering at full speed even when you alt-tab to a browser or leave it paused on another monitor. Dynamic FPS notices when the window is in the background, unfocused, hidden or idle, and drops the frame rate, the volume or both to the levels you choose.",
+      "Each state has its own settings, so the game can stay smooth while you hover over it, slow down when it loses focus and almost stop when it is minimised. A separate profile kicks in when a laptop or handheld runs on battery, and the battery level can be shown on the HUD. Switching back is instant, because the game keeps checking for input several times a second even at a low frame rate.",
+      "Dynamic FPS also fixes a vanilla bug that keeps background CPU use higher than necessary, and it stops drawing the world behind the resource loading overlay. Low-end PCs and laptops benefit most. Install Mod Menu and Cloth Config if you want the settings screen in game."
+    ],
+    "credit": "Made by juliand665 and LostLuma",
+    "license": {
+      "id": "MIT",
+      "copyright": "Copyright (c) 2019 - 2024 Julian Dunskus",
+      "text_file": "crashmods/mods/licenses/dynamic-fps.txt",
+      "source_license_url": "https://github.com/juliand665/Dynamic-FPS/blob/HEAD/LICENSE"
+    },
+    "original_authors": [
+      "LostLuma",
+      "juliand665"
+    ],
+    "source": "https://github.com/juliand665/Dynamic-FPS",
+    "modrinth": "https://modrinth.com/mod/dynamic-fps",
+    "downloads_modrinth": 67079558,
+    "files": [
+      {
+        "loader": "fabric",
+        "minecraft": "26.3",
+        "version": "3.11.10",
+        "file": "dynamic-fps-3.11.10+minecraft-26.3.0-fabric.jar",
+        "size_kb": 185,
+        "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/Jwq069rR/dynamic-fps-3.11.10%2Bminecraft-26.3.0-fabric.jar",
+        "sha256": "a186d7cdfa3738935cb8425026d118013916fdcfbc060e4397d22368d0bb6594",
+        "license_in_jar": false
+      },
+      {
+        "loader": "neoforge",
+        "minecraft": "26.3",
+        "version": "3.11.10",
+        "file": "dynamic-fps-3.11.10+minecraft-26.3.0-neoforge.jar",
+        "size_kb": 182,
+        "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/KGWebRrW/dynamic-fps-3.11.10%2Bminecraft-26.3.0-neoforge.jar",
+        "sha256": "71af4f7839096fa17f24d758682786cead49c71182decb0d3dc5a228be2fe077",
+        "license_in_jar": false
+      }
+    ],
+    "checked": "2026-10-01"
+  },
+  {
+    "slug": "fallingleaves",
+    "title": "Falling Leaves – Leaf Particles Drifting from Trees",
+    "category": "minecraft-modok__utility",
+    "category_name": "Utility",
+    "side": "Client-side only",
+    "requires": {
+      "fabric": [
+        "Fabric API",
+        "Cloth Config API"
+      ]
+    },
+    "features": [
+      "Leaf blocks drop small leaf particles that drift to the ground",
+      "Spawn rate adjustable for each type of leaf block",
+      "Conifers, jungle trees and shrubs stay quiet by default and can be switched on",
+      "Works with trees from other mods",
+      "Works with resource packs that change leaf textures",
+      "Purely client-side, no server install needed",
+      "Fabric build for Minecraft 26.3"
+    ],
+    "paragraphs": [
+      "Vanilla trees are completely still. Falling Leaves gives them a little life by letting leaf particles drift down from leaf blocks, which makes forests feel calmer and more natural.",
+      "The effect is fully configurable. You choose which leaf types drop leaves and how often, and the conifer spawn rate has its own slider. Spruce, pine, jungle trees and shrubs do not drop leaves by default, so if your spruce forest looks empty, raise the conifer rate in the settings. Modded trees and leaf resource packs are supported out of the box.",
+      "The mod runs entirely on the client, so you can use it on any server. It needs Fabric API and Cloth Config."
+    ],
+    "credit": "Originally made by RandomMcSomethin, maintained by Fourmisain and BrekiTomasson",
+    "optional": [
+      "Mod Menu to open the settings screen"
+    ],
+    "license": {
+      "id": "MIT",
+      "copyright": "Copyright (c) 2020 RandomMcSomethin",
+      "text_file": "crashmods/mods/licenses/fallingleaves.txt",
+      "source_license_url": "https://github.com/Fourmisain/fallingleaves/blob/HEAD/LICENSE"
+    },
+    "original_authors": [
+      "randommcsomethin",
+      "Fourmisain",
+      "BrekiTomasson"
+    ],
+    "source": "https://github.com/Fourmisain/fallingleaves",
+    "modrinth": "https://modrinth.com/mod/fallingleaves",
+    "downloads_modrinth": 26970134,
+    "files": [
+      {
+        "loader": "fabric",
+        "minecraft": "26.3",
+        "version": "2.0.8+26.3",
+        "file": "fallingleaves-2.0.8+26.3.jar",
+        "size_kb": 178,
+        "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/5i0SxXxj/fallingleaves-2.0.8%2B26.3.jar",
+        "sha256": "0cd1fe186a3353fb45a5b1d76627adc58650769847d2c6b183bbec2c4bdac992",
+        "license_in_jar": true
+      }
+    ],
+    "checked": "2026-10-01"
+  },
+  {
+    "slug": "lootr",
+    "title": "Lootr – Per-Player Loot Chests So Nobody Misses Out",
+    "category": "minecraft-modok__adventure",
+    "category_name": "Adventure",
+    "side": "Required on both server and client",
+    "requires": {
+      "fabric": [
+        "Fabric API"
+      ],
+      "neoforge": []
+    },
+    "features": [
+      "Every loot container gets a separate inventory for each player",
+      "Works with chests, trapped chests, barrels, shulker boxes and minecarts",
+      "Loot containers have their own look",
+      "Containers turn from gold to blue once you have opened them",
+      "No more racing other players to fresh structures",
+      "Encourages exploring existing structures instead of generating new chunks",
+      "Fabric and NeoForge builds for Minecraft 26.3"
+    ],
+    "paragraphs": [
+      "On a multiplayer server the first person to reach a dungeon takes everything, and everyone after finds an empty chest or someone's leftover junk. Lootr fixes that by giving every loot container a separate inventory for each player who opens it.",
+      "Any container with a loot table works this way: chests, trapped chests, barrels, shulker boxes and minecarts. Lootr containers look different from normal ones, and their colour changes from gold to blue once you have looted them, so you can see at a glance which structures still hold something for you.",
+      "Because players no longer need to rush to unexplored land, they tend to explore what is already generated, which keeps world size down. Lootr must be installed on both the server and every client."
+    ],
+    "credit": "Made by noobanidus, with embeddedt and ZestyBlaze",
+    "license": {
+      "id": "MIT",
+      "copyright": "Copyright (c) 2018",
+      "text_file": "crashmods/mods/licenses/lootr.txt",
+      "source_license_url": "https://github.com/noobanidus/lootr/blob/HEAD/LICENSE"
+    },
+    "original_authors": [
+      "embeddedt",
+      "ZestyBlaze",
+      "noobanidus"
+    ],
+    "source": "https://github.com/noobanidus/lootr",
+    "modrinth": "https://modrinth.com/mod/lootr",
+    "downloads_modrinth": 22701478,
+    "files": [
+      {
+        "loader": "fabric",
+        "minecraft": "26.3",
+        "version": "1.25.42.124",
+        "file": "lootr-fabric-26.3-1.25.42.124.jar",
+        "size_kb": 1546,
+        "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/gVwn7m2v/lootr-fabric-26.3-1.25.42.124.jar",
+        "sha256": "96cead3dd6280aa22104c8f87515cb8c6c8a589c0e581a62b0169996ce115f74",
+        "license_in_jar": false
+      },
+      {
+        "loader": "neoforge",
+        "minecraft": "26.3",
+        "version": "1.25.42.124",
+        "file": "lootr-neoforge-26.3-1.25.42.124.jar",
+        "size_kb": 1491,
+        "url": "https://cdn.modrinth.com/data/EltpO5cN/versions/PdFGq3vT/lootr-neoforge-26.3-1.25.42.124.jar",
+        "sha256": "ecdc2c692ce2450d24e8a5251668b6752d8afefdad40eb2838a943f8c6d217fe",
+        "license_in_jar": false
+      }
+    ],
+    "checked": "2026-10-01"
+  },
+  {
+    "slug": "toms-storage",
+    "title": "Tom's Simple Storage – Vanilla-Style Storage Network with Crafting Terminal",
+    "category": "minecraft-modok__storage",
+    "category_name": "Storage",
+    "side": "Required on both server and client",
+    "requires": {
+      "fabric": [],
+      "neoforge": []
+    },
+    "optional": [
+      "Recipe viewers JEI, REI and EMI are supported"
+    ],
+    "features": [
+      "Storage Terminal to search and take items from every connected chest",
+      "Crafting Terminal with a built-in crafting grid",
+      "Inventory Connector that links chests and barrels into one network",
+      "Wireless Terminal to reach your storage from a distance",
+      "Filtered connectors to control what goes where",
+      "Inventory Hopper and Open Crate for moving items",
+      "Uses the chests and barrels you already have",
+      "Fabric and NeoForge builds for Minecraft 26.3"
+    ],
+    "paragraphs": [
+      "Big storage mods ask you to rebuild everything around drives and power. Tom's Simple Storage goes the other way: it connects the chests and barrels you already have and lets you reach all of them from one terminal.",
+      "Place an Inventory Connector, link your containers to it and add a Storage Terminal. From there you can search the whole network and pull out exactly what you need. The Crafting Terminal adds a crafting grid that takes ingredients straight from storage, and the Wireless Terminal lets you browse it from across the base. Filtered connectors, the Inventory Hopper and the Open Crate handle the rest of the item movement.",
+      "It keeps a vanilla look, so it suits survival worlds that are not built around tech mods. The mod must be installed on the server and on every client."
+    ],
+    "credit": "Made by tom5454",
+    "license": {
+      "id": "MIT",
+      "copyright": "Copyright (c) 2020 tom5454",
+      "text_file": "crashmods/mods/licenses/toms-storage.txt",
+      "source_license_url": "https://github.com/tom5454/Toms-Storage/blob/HEAD/LICENSE"
+    },
+    "original_authors": [
+      "tom5454"
+    ],
+    "source": "https://github.com/tom5454/Toms-Storage",
+    "modrinth": "https://modrinth.com/mod/toms-storage",
+    "downloads_modrinth": 20043252,
+    "files": [
+      {
+        "loader": "fabric",
+        "minecraft": "26.3",
+        "version": "26.3-2.12.1-fabric",
+        "file": "toms_storage_fabric-26.3-2.12.1.jar",
+        "size_kb": 1823,
+        "url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/znUwcb7Z/toms_storage_fabric-26.3-2.12.1.jar",
+        "sha256": "bf43854a82525a4379c27ce99290456fb2e79ce1441272d6caab212324715370",
+        "license_in_jar": false
+      },
+      {
+        "loader": "neoforge",
+        "minecraft": "26.3",
+        "version": "26.3-2.12.1",
+        "file": "toms_storage-26.3-2.12.1.jar",
+        "size_kb": 839,
+        "url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/CSKYZTO8/toms_storage-26.3-2.12.1.jar",
+        "sha256": "3f3453e56a6c79993fdf55d9e91b0549fb8a5b2a9327424ab4b43abebc4e47f1",
+        "license_in_jar": false
+      }
+    ],
+    "checked": "2026-10-01"
+  },
+  {
+    "slug": "rightclickharvest",
+    "title": "RightClickHarvest – Harvest and Replant Crops with One Right Click",
+    "category": "minecraft-modok__game-mechanics",
+    "category_name": "Game Mechanics",
+    "side": "Required on the server, optional on the client",
+    "requires": {
+      "fabric": [
+        "Fabric API",
+        "JamLib"
+      ],
+      "neoforge": [
+        "JamLib"
+      ]
+    },
+    "features": [
+      "Right-click a grown crop to harvest it and replant the seed automatically",
+      "Works with all vanilla crops, including cocoa beans, cactus and sugar cane",
+      "Fortune on your hoe increases the yield",
+      "Works with almost all modded crops without extra setup",
+      "Optional rule that a hoe is required",
+      "Higher tier hoes can harvest in a larger radius",
+      "Harvesting can cost hunger or give or take XP if you want",
+      "Fabric and NeoForge builds for Minecraft 26.3"
+    ],
+    "paragraphs": [
+      "Vanilla farming means breaking every crop, picking up the drops and replanting by hand. RightClickHarvest turns that into a single right click: the crop is harvested and the seed goes straight back into the ground.",
+      "It handles every vanilla crop, from wheat and potatoes to cocoa beans, cactus and sugar cane, and almost all modded crops work without any configuration. Use a hoe with Fortune for bigger yields. With the radius option on, better hoes harvest a wider area in one go.",
+      "Server owners can make a hoe mandatory, charge hunger for each harvest, or reward or consume XP. The mod must be installed on the server; installing it on the client is optional."
+    ],
+    "credit": "Made by Jamalam",
+    "license": {
+      "id": "MIT",
+      "copyright": "Copyright 2026 Jamalam",
+      "text_file": "crashmods/mods/licenses/rightclickharvest.txt",
+      "source_license_url": "https://github.com/JamCoreModding/RightClickHarvest/blob/HEAD/LICENSE"
+    },
+    "original_authors": [
+      "Jamalam"
+    ],
+    "source": "https://github.com/JamCoreModding/RightClickHarvest",
+    "modrinth": "https://modrinth.com/mod/rightclickharvest",
+    "downloads_modrinth": 12401867,
+    "files": [
+      {
+        "loader": "fabric",
+        "minecraft": "26.3",
+        "version": "4.6.2+26.3.x",
+        "file": "rightclickharvest-fabric-4.6.2+26.3.x.jar",
+        "size_kb": 273,
+        "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/MTui9kST/rightclickharvest-fabric-4.6.2%2B26.3.x.jar",
+        "sha256": "27d20ed4c41e4eb0fae82b6d7164ba739b8330b028da078ffbc580052538e4bb",
+        "license_in_jar": false
+      },
+      {
+        "loader": "neoforge",
+        "minecraft": "26.3",
+        "version": "4.6.2+26.3.x",
+        "file": "rightclickharvest-neoforge-4.6.2+26.3.x.jar",
+        "size_kb": 274,
+        "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/OPZ0mGdB/rightclickharvest-neoforge-4.6.2%2B26.3.x.jar",
+        "sha256": "c997abbc8a173e62c5cf3ccb2818f6a057d7c93e1aebaa77b37b2e4d86178dd6",
+        "license_in_jar": false
+      }
+    ],
+    "checked": "2026-10-01"
+  },
+  {
+    "slug": "explosive-enhancement",
+    "title": "Explosive Enhancement – Better Looking Explosions and Underwater Blasts",
+    "category": "minecraft-modok__utility",
+    "category_name": "Utility",
+    "side": "Client-side only",
+    "requires": {
+      "fabric": [
+        "Fabric API"
+      ]
+    },
+    "optional": [
+      "YetAnotherConfigLib and Mod Menu for the settings screen"
+    ],
+    "features": [
+      "Reworked explosion animation with many new particles",
+      "Every new particle can be switched on or off",
+      "Special effect for explosions under water",
+      "Optional extra bubbles for underwater blasts",
+      "The whole mod can be disabled from its config",
+      "Purely visual, no change to explosion damage or range",
+      "Fabric build for Minecraft 26.3"
+    ],
+    "paragraphs": [
+      "A creeper explosion in vanilla is a quick grey puff. Explosive Enhancement replaces it with a fuller animation built from new particles, so TNT, creepers and every other blast finally look like they hit hard.",
+      "Each of the new particles can be turned on or off, which makes it easy to tune the effect for your PC or your taste. Explosions under water get their own effect, and you can add a burst of bubbles for an extra satisfying underwater blast.",
+      "The mod only changes how explosions look. Damage, range and block destruction stay vanilla, and nothing is needed on the server."
+    ],
+    "credit": "Made by Superkat32",
+    "license": {
+      "id": "MIT",
+      "copyright": "Copyright (c) 2022 Superkat32",
+      "text_file": "crashmods/mods/licenses/explosive-enhancement.txt",
+      "source_license_url": "https://github.com/Superkat32/Explosive-Enhancement/blob/HEAD/LICENSE"
+    },
+    "original_authors": [
+      "Superkat32"
+    ],
+    "source": "https://github.com/Superkat32/Explosive-Enhancement",
+    "modrinth": "https://modrinth.com/mod/explosive-enhancement",
+    "downloads_modrinth": 6708796,
+    "files": [
+      {
+        "loader": "fabric",
+        "minecraft": "26.3",
+        "version": "1.4.2-26.2",
+        "file": "explosive-enhancement-1.4.2-26.2.jar",
+        "size_kb": 116,
+        "url": "https://cdn.modrinth.com/data/OSQ8mw2r/versions/q9vZmPqg/explosive-enhancement-1.4.2-26.2.jar",
+        "sha256": "8d1031d1599384f114a2ed0e40a7d64ee1913df2933a00f4cc1c18a6ce7cdd1f",
+        "license_in_jar": true
+      }
+    ],
+    "checked": "2026-10-01"
+  }
+]
