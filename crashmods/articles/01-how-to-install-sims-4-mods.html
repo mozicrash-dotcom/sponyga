@@ -1,0 +1,87 @@
+<h1>How to Install Sims 4 Mods and CC: The Mods Folder, Settings and Fixes</h1>
+
+<p>Installing custom content in The Sims 4 takes three steps: put the files in the right folder, switch mods on in the game options, and restart. Most "my CC isn't showing up" problems come from skipping one of those steps or from a script mod sitting one folder too deep. This guide covers all of it on Windows and Mac, plus what to do after a game patch turns your mods off.</p>
+
+<h2>Where is the Sims 4 Mods folder?</h2>
+
+<p>The game keeps mods in your user Documents folder, not in the install folder. It is the same whether you play through the EA app or Steam:</p>
+
+<ul>
+<li><strong>Windows:</strong> <code>Documents\Electronic Arts\The Sims 4\Mods</code></li>
+<li><strong>Mac:</strong> <code>Documents/Electronic Arts/The Sims 4/Mods</code></li>
+</ul>
+
+<p>The game creates this folder the first time it starts. If you cannot find it, launch The Sims 4 once, reach the main menu, then quit and look again. Inside you will find a file called <code>Resource.cfg</code>. Leave it there: it tells the game how deep to look for your files.</p>
+
+<h2>Step 1: Know which files go where</h2>
+
+<p>Almost everything you download is one of two file types:</p>
+
+<ul>
+<li><strong><code>.package</code> files</strong> are custom content (hair, clothes, objects) and most tuning mods. They go in the Mods folder.</li>
+<li><strong><code>.ts4script</code> files</strong> are script mods that change how the game behaves. They also go in the Mods folder, usually next to a <code>.package</code> file with the same name.</li>
+</ul>
+
+<p>Downloads often arrive as a <code>.zip</code> or <code>.rar</code> archive. Extract it and move the <code>.package</code> and <code>.ts4script</code> files into Mods. Do not try to unzip a <code>.ts4script</code> file itself: the game reads it as it is.</p>
+
+<p>Saved Sims, households and lots work differently. Files ending in <code>.trayitem</code>, along with the files that come with them, belong in the <code>Tray</code> folder next to Mods. They then show up in the Gallery under "My Library".</p>
+
+<h2>Step 2: Keep script mods one folder deep</h2>
+
+<p>You can sort CC into subfolders, which makes a large collection much easier to manage. The limits are different for the two file types:</p>
+
+<ul>
+<li><code>.package</code> files can sit up to <strong>five subfolders</strong> deep.</li>
+<li><code>.ts4script</code> files work only <strong>directly in Mods or one subfolder</strong> below it.</li>
+</ul>
+
+<p>So <code>Mods/Gameplay/modname.ts4script</code> works, but <code>Mods/Gameplay/Careers/modname.ts4script</code> does not. A script mod that is too deep simply never loads, and the game gives no warning about it. This is the most common reason a gameplay mod "does nothing".</p>
+
+<h2>Step 3: Turn on mods in the game options</h2>
+
+<ol>
+<li>Start The Sims 4 and open <strong>Game Options</strong> from the menu.</li>
+<li>Go to the <strong>Other</strong> tab.</li>
+<li>Tick <strong>Enable Custom Content and Mods</strong>.</li>
+<li>Tick <strong>Script Mods Allowed</strong> if you use any <code>.ts4script</code> mods.</li>
+<li>Click <strong>Apply Changes</strong>, then quit and restart the game.</li>
+</ol>
+
+<p>After the restart, the game lists the mods it found in a pop-up. Hair and clothing then appear in Create a Sim, and objects in Build Mode.</p>
+
+<h2>After every game patch</h2>
+
+<p>When The Sims 4 updates, it switches mods off on purpose, because older script mods can break with a new patch. After an update:</p>
+
+<ol>
+<li>Check your script mods' download pages for updated versions and replace the old files.</li>
+<li>Delete <code>localthumbcache.package</code> from the <code>The Sims 4</code> folder (one level above Mods). The game rebuilds it on the next start.</li>
+<li>Turn mods back on under <strong>Game Options → Other</strong> and restart.</li>
+</ol>
+
+<p>Plain CC like hair and clothing rarely breaks after a patch. Script mods are the ones to check.</p>
+
+<h2>Sims 4 mods not working? Check these first</h2>
+
+<ul>
+<li><strong>Mods are switched off.</strong> Look in Game Options → Other. A patch may have turned them off again.</li>
+<li><strong>Script mod too deep.</strong> Move the <code>.ts4script</code> file up so it is at most one subfolder inside Mods.</li>
+<li><strong>Files still zipped.</strong> The game cannot read <code>.zip</code> or <code>.rar</code> archives. Extract them first.</li>
+<li><strong>Outdated script mod.</strong> Download the version made for the current patch.</li>
+<li><strong>Old cache.</strong> Delete <code>localthumbcache.package</code> after you add or remove mods.</li>
+<li><strong>Two mods change the same thing.</strong> Remove one of them, or use the 50/50 method below.</li>
+</ul>
+
+<h3>The 50/50 method for finding a broken mod</h3>
+
+<p>Move half of your Mods folder to the desktop and test the game. If the problem is gone, the broken file is in the half you moved. Put that half back, move half of it out again, and repeat. Even with thousands of files, a few rounds narrow it down to one mod.</p>
+
+<h2>Can you use mods on PS5 or Xbox?</h2>
+
+<p>No. Custom content and script mods only work on the PC and Mac versions of The Sims 4. Console players can use the in-game Gallery, but not downloaded mods.</p>
+
+<h2>Where to download Sims 4 CC safely</h2>
+
+<p>A <code>.package</code> file cannot run code on its own, but script mods and installers can. Download from sites that check their files. Every upload on CrashMods is scanned with VirusTotal before it goes live, and the result is shown on the mod page. You can read how in <a href="https://crashmods.com/how-we-verify-mods/">How We Verify Mods</a>, and our guide <a href="https://crashmods.com/news/how-to-tell-if-a-mod-is-safe/">Is That Mod Safe to Download?</a> covers the warning signs.</p>
+
+<p>To get started, browse the free <a href="https://crashmods.com/game/the-sims-4/">Sims 4 mods and CC on CrashMods</a>, or jump straight to <a href="https://crashmods.com/game/the-sims-4/?category=the-sims-4__hairstyles">hairstyles</a>, <a href="https://crashmods.com/game/the-sims-4/?category=the-sims-4__clothing">clothing</a> and <a href="https://crashmods.com/game/the-sims-4/?category=the-sims-4__objects">objects</a>. If you play with toddlers, <a href="https://crashmods.com/mods/elle-hair-v2/">Elle Hair v2</a> is a Maxis Match toddler hairstyle with 15 EA swatches.</p>

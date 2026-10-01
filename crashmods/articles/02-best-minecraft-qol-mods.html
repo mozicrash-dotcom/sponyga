@@ -1,0 +1,82 @@
+<h1>15 Minecraft Quality of Life Mods That Fix the Small Annoyances</h1>
+
+<p>Quality of life mods do not add dragons or new dimensions. They fix the things vanilla Minecraft gets slightly wrong: chat that forgets everything when you log out, a food bar that vanishes on horseback, potions that all look the same in a chest. This list collects 15 of them from the CrashMods library. The first five also take load off your PC or server.</p>
+
+<p>One thing to check before you download: each mod is built for a specific mod loader (Fabric, NeoForge or Forge) and Minecraft version. Use the version listed under each entry, and install the loader first. All of these are free.</p>
+
+<h2>Performance: fewer lag spikes, smoother frames</h2>
+
+<h3>1. Immersive Optimization</h3>
+<p>Entities are among the most expensive things a world has to track, and on a busy server they eat most of the tick time. <a href="https://crashmods.com/mods/immersive-optimization-entity-tick-scheduler-for-doubling-server-tps/">Immersive Optimization</a> gradually slows down how often entities and block entities tick, adjusting to the current server load, and spreads their updates over several ticks so lag spikes flatten out. Ticks are never switched off completely, which means farms keep working. The author reports around a 200% speedup, and it pairs well with Entity Culling.</p>
+<p><em>CrashMods build: NeoForge, Minecraft 1.21.1.</em></p>
+
+<h3>2. Fast Item Frames</h3>
+<p>Vanilla item frames are entities, so a wall of them costs frames. <a href="https://crashmods.com/mods/fast-item-frames-block-based-frames-for-less-lag-and-more-control/">Fast Item Frames</a> turns them into blocks, which render and update faster. You also get some extras: frames can be dyed, honeycomb locks a frame against accidental rotation, and sneak-right-click hides the frame so only the item shows.</p>
+<p><em>CrashMods build: NeoForge, Minecraft 1.21.1.</em></p>
+
+<h3>3. Fast Items</h3>
+<p>Dropped items are drawn as full 3D models, which adds up around farms and mob grinders. <a href="https://crashmods.com/mods/fast-items-2d-item-rendering-optimization/">Fast Items</a> renders them as flat 2D sprites instead, the same look popular PvP clients use. It is a 0.11 MB download with four simple settings.</p>
+<p><em>CrashMods build: Fabric, Minecraft 1.21.1.</em></p>
+
+<h3>4. Better Biome Reblend</h3>
+<p>Turning up Biome Blend in the video settings normally costs performance. <a href="https://crashmods.com/mods/better-biome-reblend-smooth-biome-color-blending/">Better Biome Reblend</a> replaces the vanilla blending so that the setting goes from 0x0 up to 29×29 without the extra cost. Grass, leaves and water now fade smoothly from biome to biome, including in caves. It works alongside Sodium 0.6.x.</p>
+<p><em>CrashMods build: NeoForge, Minecraft 1.21.11.</em></p>
+
+<h3>5. Smoke Suppression</h3>
+<p>Campfires are a staple of farm designs, and a row of them fills the screen with smoke particles. <a href="https://crashmods.com/mods/smoke-suppression-hide-campfire-smoke-above-hoppers-and-rails/">Smoke Suppression</a> stops a campfire from smoking when a hopper or rail sits directly below it. You can edit the block list yourself. It is client-side only.</p>
+<p><em>CrashMods build: Fabric and Quilt, Minecraft 1.21.1.</em></p>
+
+<h2>HUD and information: see what you need at a glance</h2>
+
+<h3>6. Chat Patches</h3>
+<p><a href="https://crashmods.com/mods/chat-patches-client-side-chat-overhaul-with-timestamps-and-history/">Chat Patches</a> raises the chat history limit from 100 to 16,384 messages and keeps it across worlds and servers. It adds timestamps and a search bar, and it collapses repeated spam into one line with a counter. Everything is client-side, so it works on any server.</p>
+<p><em>CrashMods build: Fabric, Minecraft 1.21.1. Needs YetAnotherConfigLib.</em></p>
+
+<h3>7. Held Item Tooltips</h3>
+<p>When you switch items, vanilla shows just the name above the hotbar. <a href="https://crashmods.com/mods/held-item-tooltips-detailed-item-info-above-your-hotbar/">Held Item Tooltips</a> turns that into a small info panel. It shows enchantments, durability, potion effects and even the contents of a shulker box, without opening your inventory.</p>
+<p><em>CrashMods build: Fabric, Minecraft 1.21.1. Needs Puzzles Lib, Fabric API and Forge Config API Port.</em></p>
+
+<h3>8. Status Effect Bars</h3>
+<p>Effect icons tell you what is active, not how long it lasts. <a href="https://crashmods.com/mods/status-effect-bars-customizable-duration-bars-for-the-status-effect-overlay/">Status Effect Bars</a> adds a small duration bar under each one, both on screen and in the inventory. Bars for beacon effects and very long effects can hide themselves to keep things tidy.</p>
+<p><em>CrashMods build: Fabric and Quilt, Minecraft 1.21.1. Needs Cloth Config; settings open through Mod Menu.</em></p>
+
+<h3>9. Leave My Bars Alone</h3>
+<p>Mounting a horse hides your food bar and swaps your XP bar for the jump meter. <a href="https://crashmods.com/mods/leave-my-bars-alone-keep-food-and-xp-bars-visible-while-riding/">Leave My Bars Alone</a> rearranges the riding HUD so your own food bar stays visible next to your mount's health. The XP bar comes back whenever the jump meter is not in use.</p>
+<p><em>CrashMods build: Fabric, Minecraft 1.21.1. Needs Puzzles Lib, Fabric API and Forge Config API Port.</em></p>
+
+<h3>10. Distinct Potions</h3>
+<p>Every potion uses the same bottle, so a brewing chest becomes a guessing game. <a href="https://crashmods.com/mods/distinct-potions-clearer-potion-bottles-names-and-colors/">Distinct Potions</a> gives greater and extended potions their own bottle shapes and adds "lesser", "extended" or "greater" to the name. Awkward, mundane and thick potions also get their own colors.</p>
+<p><em>CrashMods build: NeoForge, Minecraft 1.21.1. Needs Puzzles Lib.</em></p>
+
+<h3>11. Bookshelf Inspector</h3>
+<p>Chiseled bookshelves look great, but vanilla gives no hint which book sits in which slot. <a href="https://crashmods.com/mods/bookshelf-inspector-read-book-titles-straight-from-chiseled-bookshelves/">Bookshelf Inspector</a> shows the title and type of the book you are looking at, including enchanted books. It can also read the book on a lectern.</p>
+<p><em>CrashMods build: Fabric, Minecraft 1.21.1. For multiplayer the server needs it too.</em></p>
+
+<h2>Menus and small tools</h2>
+
+<h3>12. YUNG's Menu Tweaks</h3>
+<p><a href="https://crashmods.com/mods/yungs-menu-tweaks-easier-menu-navigation-with-custom-backgrounds/">YUNG's Menu Tweaks</a> fixes settings menus that were never built for speed. Right-click a cycle button to go back one option, and use the scroll wheel on sliders. You can also set a custom background for almost every options screen.</p>
+<p><em>CrashMods build: NeoForge, Minecraft 1.21.1. Needs YUNG's API.</em></p>
+
+<h3>13. World Play Time</h3>
+<p><a href="https://crashmods.com/mods/world-play-time-playtime-counter-in-the-world-selection-screen/">World Play Time</a> answers a question the world list never does: how many hours went into this save? It shows the play time on every world in the selection screen. It reads the statistic Minecraft already tracks, so old worlds show their real totals too.</p>
+<p><em>CrashMods build: Fabric, Minecraft 1.21.1.</em></p>
+
+<h3>14. Music Control</h3>
+<p>Minecraft plays its soundtrack on its own schedule, with long silences and no skip button. <a href="https://crashmods.com/mods/music-control-skip-replay-and-fully-customise-the-game-soundtrack/">Music Control</a> puts you in charge: press M for the music panel, use the arrow keys to skip or replay, and pick tracks for each biome and dimension.</p>
+<p><em>CrashMods build: Fabric, Minecraft 1.21.1. Client-side.</em></p>
+
+<h3>15. WITS (What Is This Structure?)</h3>
+<p>Walked into a ruin and wondered which mod added it? <a href="https://crashmods.com/mods/wits-what-is-this-structure-command-to-identify-structures-at-your-location/">WITS</a> adds one command, <code>/wits</code>, that lists every structure at your exact position. Installed on a server, it works for every player, even ones on a vanilla client.</p>
+<p><em>CrashMods build: NeoForge, Minecraft 1.21.1.</em></p>
+
+<h2>How to install these mods</h2>
+
+<ol>
+<li>Install the right loader for your Minecraft version: Fabric or NeoForge, as listed under each mod.</li>
+<li>Download the mod and any library it needs (Fabric API, Puzzles Lib, Cloth Config and so on).</li>
+<li>Put the <code>.jar</code> files in the <code>mods</code> folder of your Minecraft directory, or of the instance in your launcher.</li>
+<li>Start the game with the loader's profile selected.</li>
+</ol>
+
+<p>Fabric and NeoForge mods cannot be mixed in one instance, so pick one loader and choose mods built for it. For more, browse all <a href="https://crashmods.com/game/minecraft-modok/?category=minecraft-modok__utility">Minecraft utility mods</a> and <a href="https://crashmods.com/game/minecraft-modok/?category=minecraft-modok__optimization">optimization mods</a> on CrashMods, or the full <a href="https://crashmods.com/game/minecraft-modok/">Minecraft mods</a> library.</p>
